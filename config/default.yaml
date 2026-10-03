@@ -1,6 +1,0 @@
-app:
-  name: "ebpf-runtime-security-enforcer"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"

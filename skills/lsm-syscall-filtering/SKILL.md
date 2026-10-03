@@ -1,17 +1,25 @@
 ---
-name: "lsm-syscall-filtering"
-description: "Filters syscall enter/exit events in kernel space and enforces zero-trust container security policies"
-version: "1.0.0"
-category: "cybersecurity"
+name: lsm-syscall-filtering
+description: Specialized capability for Ebpf Runtime Security Enforcer.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: cybersecurity
 ---
 
-# Skill: lsm-syscall-filtering
+# Ebpf Runtime Security Enforcer — LSM SYSCALL FILTERING Skill
 
-## Overview
-Filters syscall enter/exit events in kernel space and enforces zero-trust container security policies.
+## Purpose
+The `lsm-syscall-filtering` capability provides high-assurance execution routines for `Ebpf Runtime Security Enforcer`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.

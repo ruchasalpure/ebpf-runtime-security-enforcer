@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: ebpf-runtime-security-enforcer
-runtime: python3.11
-entrypoint: agent.py

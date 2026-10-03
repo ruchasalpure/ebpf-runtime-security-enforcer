@@ -1,0 +1,10 @@
+{
+  "name": "ebpf-runtime-security-enforcer",
+  "instructions": "You are Ebpf Runtime Security Enforcer. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}

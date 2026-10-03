@@ -1,0 +1,8 @@
+{
+  "agent_id": "ebpf-runtime-security-enforcer",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}
